@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+keycloak:
+  realm: KeyCloak_Demo
+  auth-server-url: http://localhost:8180
+  resource: KeyCloak_Demo
+  public-client: true
+  bearer-only: true
